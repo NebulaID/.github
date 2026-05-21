@@ -47,7 +47,9 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 - Portable reputation systems
 - Cross-chain identity infrastructure
 - Selective disclosure for sensitive credentials
+- Sybil-resistant participation primitives
 - Verifiable trust layers for communities and applications
+- Verifiable trust systems for people and agents
 
 ## Core building blocks
 
@@ -58,8 +60,9 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 | Soulbound credentials | Represent non-transferable identity signals |
 | Semaphore | Support privacy-preserving participation and sybil resistance |
 | Cross-chain layers | Keep identity usable across networks and apps |
+| Selective disclosure | Minimize data exposure during verification |
 
-## Product areas
+## Product focus
 
 | Area | Focus |
 |---|---|
@@ -68,11 +71,12 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 | Credentials | Educational, eligibility, and ownership attestations |
 | Sensitive data | Health-related and confidential disclosures with control |
 | Inclusion | Identity systems for stateless, underserved, and borderless users |
-| Agentic identity | Trust layers for autonomous agents and AI systems |
+| Agents | Trust layers for autonomous agents and AI systems |
 
 ## Journey
 
 NebulaID has grown from focused experiments into a broader identity stack.
+The work has moved through research, product implementation, and protocol design.
 
 | Phase | Stage | What changed |
 |---|---|---|
@@ -87,8 +91,8 @@ These milestones reflect a journey shaped by public goods work, experimentation,
 | Milestone | Why it matters |
 |---|---|
 | 🥇 ETHKL 2024 Winner | Recognition for our work in decentralized identity and privacy-preserving infrastructure |
-| 🏛️ Funding the Commons Residency | Selected for the Builders Residency in Chiang Mai, Thailand alongside public goods builders |
-| 🌱 Gitcoin GG22 Grantee | Participation across the Gitcoin GG22 open-source and public goods ecosystem tracks |
+| 🏛️ Funding the Commons Residency | Selected for the Builders Residency in Chiang Mai, Thailand, alongside public goods builders |
+| 🌱 Gitcoin GG22 Grantee | Supported by the broader Web3 community through open-source and public goods tracks |
 
 ## Philosophy
 
@@ -133,10 +137,11 @@ NebulaID is organized around a few long-term goals:
 - Support reputation without surveillance
 - Enable interoperability across chains and applications
 - Build infrastructure that serves both people and agents
+- Create verifiable trust systems that scale with the internet
 
 ## Contributing
 
-We welcome contributors who want to help build privacy-first identity infrastructure.
+We welcome collaborators who care about privacy, identity, cryptography, and public goods.
 
 <div align="center">
 
