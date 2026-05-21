@@ -122,9 +122,7 @@ Together, these repositories turn research into real products: they start with i
 | `tlsnotary-version` | Implementation work focused on TLSNotary-backed attestations and verifiable web claims |
 | `cultural-did` | DID and identity research exploring how identity, culture, and coordination evolve on open infrastructure |
 | `landing-page` | The public-facing site and presentation layer that explains the mission and invites people in |
-| `Nebula Gateway` | A privacy-preserving trust infrastructure layer for HashKey Chain that verifies humanity, reputation, eligibility, and cohort membership without revealing who the user is |
-
-Nebula Gateway helps protocols answer questions like: is this a real person, what trust band does this wallet belong to, does it meet the access policy, and is it part of an allowed group — all while keeping identity private.
+| `Nebula Gateway` | A privacy-preserving trust infrastructure layer for HashKey Chain that verifies humanity, reputation, eligibility, and cohort membership without ever revealing who the user is |
 
 | Layer | Primary technologies |
 |---|---|
