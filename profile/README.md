@@ -112,14 +112,19 @@ for the decentralized future.
 
 ## Ecosystem
 
-| Repository | Role |
+Together, these repositories turn research into real products: they start with identity primitives, prove trust without exposure, and package the experience into tools people and protocols can actually use.
+
+| Repository | What it does |
 |---|---|
-| `NebulaHolo` | Identity-related product work |
-| `Identity-app` | End-user identity application |
-| `semaphore-boilerplate` | Semaphore-based starter project |
-| `tlsnotary-version` | TLSNotary-focused implementation work |
-| `cultural-did` | DID and identity research |
-| `landing-page` | Public-facing site and presentation layer |
+| `NebulaHolo` | Core identity product work that turns protocol ideas into usable experiences and integrations |
+| `Identity-app` | The end-user identity application for managing proofs, credentials, and private verification flows |
+| `semaphore-boilerplate` | A Semaphore-based starter project for privacy-preserving participation and sybil-resistant building |
+| `tlsnotary-version` | Implementation work focused on TLSNotary-backed attestations and verifiable web claims |
+| `cultural-did` | DID and identity research exploring how identity, culture, and coordination evolve on open infrastructure |
+| `landing-page` | The public-facing site and presentation layer that explains the mission and invites people in |
+| `Nebula Gateway` | A privacy-preserving trust infrastructure layer for HashKey Chain that verifies humanity, reputation, eligibility, and cohort membership without revealing who the user is |
+
+Nebula Gateway helps protocols answer questions like: is this a real person, what trust band does this wallet belong to, does it meet the access policy, and is it part of an allowed group — all while keeping identity private.
 
 | Layer | Primary technologies |
 |---|---|
