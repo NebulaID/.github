@@ -21,23 +21,23 @@ NebulaID is building a universal identity layer that lets people prove claims wi
 | Area | What NebulaID is solving | Approach |
 |---|---|---|
 | Identity | Fragmented, platform-bound identity | User-owned, interoperable identity primitives |
-| Verification | Sensitive data exposed during trust checks | Zero-knowledge and selective disclosure |
+| Verification | Sensitive data exposed during trust checks | Zero-Knowledge and selective disclosure |
 | Reputation | Reputation that does not travel well | Persistent, portable reputation layers |
-| Offchain trust | Hard-to-verify web data | TLSNotary-backed attestations |
+| Off-chain trust | Hard-to-verify web data | TLSNotary-backed attestations |
 
 ## Core building blocks
 
 | Component | Purpose |
 |---|---|
-| Zero-knowledge proofs | Verify claims without revealing raw data |
+| Zero-Knowledge proofs | Verify claims without revealing raw data |
 | TLSNotary | Bring web data into trust-minimized verification flows |
 | Soulbound credentials | Represent non-transferable identity and reputation signals |
 | Semaphore | Support privacy-preserving participation and sybil resistance |
 | Cross-chain layers | Keep identity usable across chains and applications |
 
-## Technology stack
+## Technologies
 
-| Layer | Tools mentioned in this ecosystem |
+| Layer | Primary technologies |
 |---|---|
 | Smart contracts | Solidity |
 | Proof systems | Circom, ZK tooling |
