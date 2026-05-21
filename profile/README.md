@@ -2,16 +2,11 @@
 
 # 🌌 NebulaID
 
-### Privacy-Preserving Universal Identity Infrastructure
-
-Building decentralized identity primitives for humanity, reputation, and interoperable onchain trust using Zero-Knowledge Proofs, TLSNotary, Soulbound credentials, and decentralized verification systems.
+### Identity aggregation and verification protocol for the decentralized web
 
 [![Open Source](https://img.shields.io/badge/Open%20Source-Public%20Goods-blue?style=for-the-badge)]()
-[![ZK Powered](https://img.shields.io/badge/Zero--Knowledge-Identity-purple?style=for-the-badge)]()
-[![Built for Web3](https://img.shields.io/badge/Web3-Identity%20Infrastructure-black?style=for-the-badge)]()
+[![ZK Powered](https://img.shields.io/badge/ZK--Powered-Identity-purple?style=for-the-badge)]()
 [![Privacy First](https://img.shields.io/badge/Privacy-Preserving-green?style=for-the-badge)]()
-
-### 🔗 Links
 
 [Website](https://nebulaid.xyz) • [X / Twitter](https://x.com/NebulaIDxyz) • [Founder](https://x.com/0xShikhar)
 
@@ -19,315 +14,94 @@ Building decentralized identity primitives for humanity, reputation, and interop
 
 ---
 
-# 🚀 What is NebulaID?
+## Overview
 
-**NebulaID** is an open-source decentralized identity aggregation and verification protocol focused on building **privacy-preserving, interoperable, universal digital identities** for the next generation of the internet.
+NebulaID is an open-source identity aggregation and verification protocol focused on helping people prove claims without exposing the underlying data.
 
-We are building infrastructure that enables users to prove:
-- Humanity
-- Reputation
-- Nationality
-- Creditworthiness
-- Ownership
-- Eligibility
-- Social credibility
-- Educational credentials
-- Health-related attestations
-- Cross-platform reputation
+Our goal is to make identity portable, privacy-preserving, and useful across ecosystems — without turning it into a surveillance layer.
 
-…without exposing sensitive personal data.
+| Area | What it means | NebulaID's approach |
+|---|---|---|
+| Identity | Fragmented, platform-bound identity | User-owned identity primitives |
+| Verification | Sensitive data revealed too often | Zero-Knowledge and selective disclosure |
+| Reputation | Reputation that does not travel well | Portable trust and reputation layers |
+| Off-chain trust | Web data that is hard to verify | TLSNotary-backed attestations |
+| Coordination | Trust across communities and systems | Verifiable, privacy-preserving signals |
 
-NebulaID combines:
-- **Zero-Knowledge Proofs (ZKPs)**
-- **TLSNotary**
-- **Soulbound Identity Systems**
-- **Semaphore**
-- **Cross-chain identity layers**
-- **Selective disclosure primitives**
-- **Privacy-preserving verification infrastructure**
+## Major Use Cases
 
-to create a new standard for decentralized identity and trust.
+| Use case | What NebulaID helps with |
+|---|---|
+| Proof of personhood | Reduce sybil abuse while keeping user privacy intact |
+| Reputation portability | Carry trust signals across apps, communities, and chains |
+| Selective disclosure | Reveal only what is needed for eligibility or access |
+| Credential verification | Validate education, membership, and ownership claims |
+| Private community access | Gate participation without exposing raw personal data |
+| Off-chain attestations | Turn web-based claims into verifiable trust primitives |
+| Agentic identity | Support trust and permissions for autonomous systems |
 
----
+## Key Capabilities
 
-# 🌍 Vision
-
-The current identity landscape is:
-- Centralized
-- Fragmented
-- Privacy-invasive
-- Difficult to verify globally
-- Expensive and inaccessible for billions of people
-
-NebulaID aims to build:
-> A universal, privacy-preserving identity layer for the decentralized world.
-
-We believe identity should:
-- Belong to users
-- Be portable across ecosystems
-- Preserve privacy by default
-- Enable global participation
-- Work across chains and applications
-- Empower both individuals and communities
-
----
-
-# 🧠 Core Technologies
-
-## 🔐 Zero-Knowledge Proofs (ZK)
-
-NebulaID uses ZK systems to allow users to verify claims without revealing the underlying data itself.
-
-Examples:
-- Prove you are human without revealing identity
-- Prove reputation thresholds without exposing activity
-- Prove eligibility without leaking personal information
-
----
-
-## 🌐 TLSNotary Integration
-
-NebulaID integrates **TLSNotary** to bring verified offchain data onchain in a trust-minimized way.
-
-This enables:
-- Social verification
-- Financial verification
-- Credit scoring
-- Reputation systems
-- Web2 → Web3 trust bridges
-
-without requiring centralized APIs or custodians.
-
----
-
-## 🪪 Soulbound Identity Infrastructure
-
-We experiment with:
-- Soulbound NFTs
-- Non-transferable identity credentials
-- Verifiable identity attestations
-- Persistent reputation layers
-
-to create durable decentralized identity systems.
-
----
-
-## 🔏 Privacy Infrastructure
-
-NebulaID heavily focuses on:
-- Anonymous verification
-- Selective disclosure
-- Private credential systems
-- Reputation without surveillance
-- Human-centric identity design
-
----
-
-## ⛓️ Interoperability
-
-NebulaID is designed for:
-- EVM ecosystems
+- Privacy-preserving identity aggregation
+- Trust-minimized verification flows
+- Portable reputation systems
 - Cross-chain identity infrastructure
-- ENS integrations
-- Multi-network verification systems
-- Future interoperability layers
+- Selective disclosure for sensitive credentials
+- Sybil-resistant participation primitives
+- Verifiable trust layers for communities and applications
+- Verifiable trust systems for people and agents
 
----
+## Core building blocks
 
-# 🛠️ Ecosystem & Repositories
+| Component | Purpose |
+|---|---|
+| Zero-Knowledge Proofs | Verify claims without revealing raw data |
+| TLSNotary | Bring web data into verifiable trust flows |
+| Soulbound credentials | Represent non-transferable identity signals |
+| Semaphore | Support privacy-preserving participation and sybil resistance |
+| Cross-chain layers | Keep identity usable across networks and apps |
+| Selective disclosure | Minimize data exposure during verification |
 
-This organization contains multiple research experiments, infrastructure modules, and production-focused applications around decentralized identity.
+## Product focus
 
-### Key repositories include:
-- `NebulaHolo`
-- `Identity-app`
-- `semaphore-boilerplate`
-- `tlsnotary-version`
-- `cultural-did`
-- `landing-page`
-- additional ZK identity experiments and infrastructure tooling
+| Area | Focus |
+|---|---|
+| Humanity proofs | Sybil-resistant verification and proof-of-personhood systems |
+| Reputation | Social, financial, and community trust signals that remain private |
+| Credentials | Educational, eligibility, and ownership attestations |
+| Sensitive data | Health-related and confidential disclosures with control |
+| Inclusion | Identity systems for stateless, underserved, and borderless users |
+| Agents | Trust layers for autonomous agents and AI systems |
 
-Our stack includes:
-- Solidity
-- Rust
-- TypeScript
-- Circom
-- Next.js
-- Zero-Knowledge tooling
-- Smart contracts
-- Decentralized infrastructure
+## Journey
 
----
+NebulaID has grown from focused experiments into a broader identity stack.
+The work has moved through research, product implementation, and protocol design.
 
-# 🌌 Major Use Cases
+| Phase | Stage | What changed |
+|---|---|---|
+| Early research | Foundational work | Identity experiments, TLSNotary integrations, and ZK reputation concepts |
+| Product layer | Current buildout | Identity applications and verification workflows |
+| Protocol vision | Ongoing | A more complete identity aggregation and verification system |
 
-## 👤 Universal Digital Identity
+## Achievements & Recognition
 
-A unified onchain identity layer users can own and control globally.
+These milestones reflect a journey shaped by public goods work, experimentation, and execution.
 
----
+| Milestone | Why it matters |
+|---|---|
+| 🥇 ETHKL 2024 Winner | Won the Ethereum Foundation track for our work in decentralized identity and privacy-preserving infrastructure |
+| 🏛️ Funding the Commons Residency | One-month residency at the ETH Devcon Popup Village in Chiang Mai, Thailand, alongside public goods builders |
+| 🌱 Gitcoin GG22 Grantee | Supported by the broader Web3 community through open-source and public goods tracks |
 
-## 🧑‍🚀 Proof of Humanity
+## Philosophy
 
-Sybil-resistant verification systems integrated with:
-- Worldcoin
-- Semaphore
-- ZK verification primitives
-
----
-
-## 🏦 Decentralized Credit & Reputation
-
-Privacy-preserving:
-- Credit scoring
-- Financial credibility
-- Social reputation
-- Trust infrastructure
-
-without exposing sensitive financial data.
-
----
-
-## 🩺 Health & Sensitive Data Verification
-
-Exploring encrypted and selective verification systems for:
-- Health-related attestations
-- Sensitive credentials
-- Privacy-preserving disclosures
-
----
-
-## 🌍 Inclusion & Refugee Identity
-
-Researching identity systems that can work for:
-- Stateless individuals
-- Refugees
-- Underserved populations
-- Borderless participation systems
-
----
-
-## 🤖 Agentic & AI Identity Systems
-
-Exploring identity primitives for:
-- Autonomous agents
-- AI reputation systems
-- Human-agent verification layers
-- Agentic trust infrastructure
-
----
-
-# 🏆 Achievements & Recognition
-
-## 🥇 ETHKL 2024 Winner
-
-NebulaID received recognition and prizes at **ETHKL 2024**, showcasing our work in decentralized identity and privacy-preserving infrastructure.
-
----
-
-## 🏛️ Funding the Commons Residency
-
-Selected for the prestigious **Funding the Commons Builders Residency** in Chiang Mai, Thailand.
-
-NebulaID was developed and presented alongside builders working on public goods, decentralized coordination, and next-generation internet infrastructure.
-
----
-
-## 🌱 Gitcoin GG22 Grantee
-
-NebulaID participated in:
-- Gitcoin GG22
-- Open Source Software tracks
-- Public goods ecosystem initiatives
-
-with support from the broader Web3 community.
-
----
-
-## 🌐 Open Source Public Goods
-
-NebulaID is fundamentally an:
-- Open-source initiative
-- Public goods effort
-- Research-driven ecosystem
-- Community-focused infrastructure layer
-
-focused on pushing decentralized identity forward.
-
----
-
-# 📈 Evolution of NebulaID
-
-NebulaID has evolved from:
-- Identity experiments
-- TLSNotary integrations
-- ZK reputation systems
-
-into broader infrastructure research including:
-- Nebula Gateway
-- Reputation layers
-- Cross-chain identity systems
-- Agentic identity infrastructure
-- Humanity verification systems
-- Decentralized trust coordination
-
-This is only the beginning.
-
----
-
-# 👨‍💻 Founder
-
-Built and led by **Shikhar Singh** (`0xShikhar`)
-
-Full-stack Web3 engineer focused on:
-- Zero-Knowledge systems
-- DeFi infrastructure
-- Decentralized identity
-- Privacy-preserving systems
-- Protocol architecture
-- Cross-chain infrastructure
-
-Past and parallel work includes:
-- Nexus Finance
-- Restaking infrastructure
-- Identity primitives
-- Public goods ecosystems
-- DeFi protocol research
-
----
-
-# 🌠 Long-Term Mission
-
-NebulaID is building toward a future where:
-- Identity is user-owned
-- Reputation is portable
-- Privacy is fundamental
-- Verification is trustless
-- Humanity can participate globally without barriers
-
-We believe decentralized identity will become one of the most important infrastructure layers of the next decade.
-
----
-
-# 🤝 Contributing
-
-We welcome:
-- Researchers
-- Protocol engineers
-- ZK developers
-- Privacy advocates
-- Open-source contributors
-- Infrastructure builders
-
-If you're interested in collaborating on decentralized identity infrastructure, privacy systems, or ZK verification networks, feel free to contribute or reach out.
-
----
-
-# 📜 Philosophy
+We welcome researchers, protocol engineers, ZK developers, privacy advocates, and infrastructure builders.
 
 > Identity should empower people — not surveil them.
 
 NebulaID exists to push the boundaries of:
+
 - Privacy
 - Sovereignty
 - Open infrastructure
@@ -336,10 +110,44 @@ NebulaID exists to push the boundaries of:
 
 for the decentralized future.
 
----
+## Ecosystem
+
+Together, these repositories turn research into real products: they start with identity primitives, prove trust without exposure, and package the experience into tools people and protocols can actually use.
+
+| Repository | What it does |
+|---|---|
+| `NebulaHolo` | Core identity product work that turns protocol ideas into usable experiences and integrations |
+| `Identity-app` | The end-user identity application for managing proofs, credentials, and private verification flows |
+| `semaphore-boilerplate` | A Semaphore-based starter project for privacy-preserving participation and sybil-resistant building |
+| `tlsnotary-version` | Implementation work focused on TLSNotary-backed attestations and verifiable web claims |
+| `cultural-did` | DID and identity research exploring how identity, culture, and coordination evolve on open infrastructure |
+| `landing-page` | The public-facing site and presentation layer that explains the mission and invites people in |
+| `nebula-gateway` | A privacy-preserving trust infrastructure layer for HashKey Chain that verifies humanity, reputation, eligibility, and cohort membership without ever revealing who the user is |
+
+| Layer | Primary technologies |
+|---|---|
+| Smart contracts | Solidity |
+| Proof systems | Circom, ZK tooling |
+| Services and apps | TypeScript, Next.js |
+| Infrastructure | Rust, decentralized infrastructure |
+
+## Direction
+
+NebulaID is organized around a few long-term goals:
+
+- Make identity portable across ecosystems
+- Keep verification private by default
+- Support reputation without surveillance
+- Enable interoperability across chains and applications
+- Build infrastructure that serves both people and agents
+- Create verifiable trust systems that scale with the internet
+
+## Contributing
+
+We welcome collaborators who care about privacy, identity, cryptography, and public goods.
 
 <div align="center">
 
-### 🌌 NebulaID — Building Identity for the Decentralized Universe
+### 🌌 NebulaID — Building Identity for the Decentralized Future
 
 </div>
