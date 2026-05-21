@@ -90,8 +90,8 @@ These milestones reflect a journey shaped by public goods work, experimentation,
 
 | Milestone | Why it matters |
 |---|---|
-| 🥇 ETHKL 2024 Winner | Recognition for winning the Ethereum Foundation track and for our work in decentralized identity and privacy-preserving infrastructure |
-| 🏛️ Funding the Commons Residency | 1 month residency by ETH Devcon POPup Village in Chiang Mai, Thailand, alongside public goods builders |
+| 🥇 ETHKL 2024 Winner | Won the Ethereum Foundation track for our work in decentralized identity and privacy-preserving infrastructure |
+| 🏛️ Funding the Commons Residency | One-month residency at the ETH Devcon POPup Village in Chiang Mai, Thailand, alongside public goods builders |
 | 🌱 Gitcoin GG22 Grantee | Supported by the broader Web3 community through open-source and public goods tracks |
 
 ## Philosophy
