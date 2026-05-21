@@ -40,7 +40,7 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 | Off-chain attestations | Turn web-based claims into verifiable trust primitives |
 | Agentic identity | Support trust and permissions for autonomous systems |
 
-## What NebulaID is building
+## Key Capabilities
 
 - Privacy-preserving identity aggregation
 - Trust-minimized verification flows
@@ -74,7 +74,7 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 
 NebulaID has grown from focused experiments into a broader identity stack.
 
-| Phase | Approx. time | What changed |
+| Phase | Stage | What changed |
 |---|---|---|
 | Early research | Foundational work | Identity experiments, TLSNotary integrations, and ZK reputation concepts |
 | Product layer | Current buildout | Identity applications and verification workflows |
@@ -94,7 +94,7 @@ These milestones reflect a journey shaped by public goods work, experimentation,
 
 We welcome researchers, protocol engineers, ZK developers, privacy advocates, and infrastructure builders.
 
-Identity should empower people — not surveil them.
+> Identity should empower people — not surveil them.
 
 NebulaID exists to push the boundaries of:
 
