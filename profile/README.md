@@ -53,7 +53,7 @@ Our goal is to make identity portable, privacy-preserving, and useful across eco
 
 | Component | Purpose |
 |---|---|
-| Zero-Knowledge proofs | Verify claims without revealing raw data |
+| Zero-Knowledge Proofs | Verify claims without revealing raw data |
 | TLSNotary | Bring web data into verifiable trust flows |
 | Soulbound credentials | Represent non-transferable identity signals |
 | Semaphore | Support privacy-preserving participation and sybil resistance |
