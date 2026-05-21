@@ -16,7 +16,9 @@
 
 ## Overview
 
-NebulaID is an open-source identity aggregation and verification protocol focused on helping people prove claims without exposing the underlying data. The goal is to make identity portable, privacy-preserving, and useful across ecosystems.
+NebulaID is an open-source identity aggregation and verification protocol focused on helping people prove claims without exposing the underlying data.
+
+Our goal is to make identity portable, privacy-preserving, and useful across ecosystems — without turning it into a surveillance layer.
 
 | Area | What it means | NebulaID's approach |
 |---|---|---|
@@ -24,6 +26,19 @@ NebulaID is an open-source identity aggregation and verification protocol focuse
 | Verification | Sensitive data revealed too often | Zero-Knowledge and selective disclosure |
 | Reputation | Reputation that does not travel well | Portable trust and reputation layers |
 | Off-chain trust | Web data that is hard to verify | TLSNotary-backed attestations |
+| Coordination | Trust across communities and systems | Verifiable, privacy-preserving signals |
+
+## Major Use Cases
+
+| Use case | What NebulaID helps with |
+|---|---|
+| Proof of personhood | Reduce sybil abuse while keeping user privacy intact |
+| Reputation portability | Carry trust signals across apps, communities, and chains |
+| Selective disclosure | Reveal only what is needed for eligibility or access |
+| Credential verification | Validate education, membership, and ownership claims |
+| Private community access | Gate participation without exposing raw personal data |
+| Off-chain attestations | Turn web-based claims into verifiable trust primitives |
+| Agentic identity | Support trust and permissions for autonomous systems |
 
 ## What NebulaID is building
 
@@ -32,6 +47,7 @@ NebulaID is an open-source identity aggregation and verification protocol focuse
 - Portable reputation systems
 - Cross-chain identity infrastructure
 - Selective disclosure for sensitive credentials
+- Verifiable trust layers for communities and applications
 
 ## Core building blocks
 
@@ -64,15 +80,31 @@ NebulaID has grown from focused experiments into a broader identity stack.
 | Product layer | Current buildout | Identity applications and verification workflows |
 | Protocol vision | Ongoing | A more complete identity aggregation and verification system |
 
-## Achievements
+## Achievements & Recognition
 
 These milestones reflect a journey shaped by public goods work, experimentation, and execution.
 
 | Milestone | Why it matters |
 |---|---|
-| ETHKL 2024 winner | Validation from the broader builder and privacy community |
-| Funding the Commons Residency | Recognition among public goods and infrastructure builders |
-| Gitcoin GG22 grantee | Support from the open-source and Web3 ecosystem |
+| 🥇 ETHKL 2024 Winner | Recognition for our work in decentralized identity and privacy-preserving infrastructure |
+| 🏛️ Funding the Commons Residency | Selected for the Builders Residency in Chiang Mai, Thailand alongside public goods builders |
+| 🌱 Gitcoin GG22 Grantee | Participation across the Gitcoin GG22 open-source and public goods ecosystem tracks |
+
+## Philosophy
+
+We welcome researchers, protocol engineers, ZK developers, privacy advocates, and infrastructure builders.
+
+Identity should empower people — not surveil them.
+
+NebulaID exists to push the boundaries of:
+
+- Privacy
+- Sovereignty
+- Open infrastructure
+- Human coordination
+- Verifiable trust systems
+
+for the decentralized future.
 
 ## Ecosystem
 
@@ -104,9 +136,7 @@ NebulaID is organized around a few long-term goals:
 
 ## Contributing
 
-We welcome researchers, protocol engineers, ZK developers, privacy advocates, and infrastructure builders.
-
-> Identity should empower people — not surveil them.
+We welcome contributors who want to help build privacy-first identity infrastructure.
 
 <div align="center">
 
